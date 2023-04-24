@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav-links{
+
+    display: flex;
+    justify-content: center;
+    font-size: large;
+
+}
+.app-link{
+   padding-bottom: 50px;
+   padding-inline-start: 30px;
+}
+
+
+body{
+    background-size: cover;
+    background-image: url("notes-bg.jpg");
+}
+
+#todo-list{
+display: flex;
+justify-content: center;
+}
+
+
+
+
+button{
+
+    color: black;
+    font-style:oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+    height: 30px;
+    width: 60px;
+
+}
+
+
+input{
+    margin-bottom: 30px;
+    color: black;
+    font-style:oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+    height: 50px;
+    width: 292px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 90px;
+    text-align:  center;
+    width: 300px;
+    border-bottom:solid 1px rgb(0, 0, 0);
+    color: rgb(200, 212, 200);
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
